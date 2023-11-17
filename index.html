@@ -1,0 +1,40 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Feliz aniversario irmã</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="style.css" ></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <style type="text/css">
+  h3
+  {
+    font-size: 25px !important;
+  }
+  canvas {
+  	border:1px solid black;
+  }
+  </style>
+</head>
+
+<body>
+<div class="container">
+	<h3 class="btn btn-primary">Tire incriveis fotos com seus amigos!</h3>
+	<hr>
+  <label for="">Digite a cor do filtro(em inglês):</label>
+  <input id="colorName" placeholder="Digite a cor do filtro" >
+  <br><br>
+  <button onclick="filterTint()" class="btn btn-warning"  >Aplicar filtro</button>
+  <br><br>
+  <button onclick="takeSnapshot()" class="btn btn-success">Salvar foto</button>
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
